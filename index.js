@@ -16,7 +16,7 @@ async function sendToOpenAI(message) {
 }
 
 function containsBadWords(message) {
-  const badWords = ['ajg', 'goblok', 'asu', 'ktnl', 'titit', 'ppk', 'pepek', 'anjc', 'babi', 'puki', 'pukimak', 'asw', 'kntl', 'mmk', 'memek', 'tai', 'bangsat', 'bgst', 'ktl']; // Tambahkan kata-kata kasar yang ingin Anda deteksi di sini
+  const badWords = ['ajg', 'goblok', 'asu', 'ktnl', 'titit', 'ppk', 'pepek', 'anjc', 'babi', 'puki', 'pukimak', 'asw', 'kntl', 'mmk', 'memek', 'tai', 'bangsat', 'bgst', 'ktl'];
   const words = message.toLowerCase().split(' ');
   for (const word of words) {
     if (badWords.includes(word)) {
