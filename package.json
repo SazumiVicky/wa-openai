@@ -1,0 +1,32 @@
+{
+  "name": "wa-openai",
+  "version": "1.0.0",
+  "description": "MakeMeow Using ChatGPT Auto Responded",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SazumiVicky/MakeMeow-ChatGPT.git"
+  },
+  "keywords": [
+    "MakeMeow.",
+    "ChatGPT",
+    "Openai",
+    "SazumiViki",
+    "Whatsapp-Bot",
+    "Bot",
+    "Bot-Wa",
+    "Venom-Bot"
+  ],
+  "author": "Sazumi Viki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SazumiVicky/MakeMeow-ChatGPT/issues"
+  },
+  "homepage": "https://github.com/SazumiVicky/MakeMeow-ChatGPT#readme",
+  "dependencies": {
+    "venom-bot": "^5.0.1"
+  }
+}
