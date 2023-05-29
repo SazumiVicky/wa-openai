@@ -27,6 +27,11 @@
   },
   "homepage": "https://github.com/SazumiVicky/MakeMeow-ChatGPT#readme",
   "dependencies": {
+    "chromium": "^3.0.3",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "puppeteer": "^20.4.0",
+    "puppeteer-extra": "^3.3.6",
+    "axios": "^1.4.0",
     "venom-bot": "^5.0.1"
   }
 }
